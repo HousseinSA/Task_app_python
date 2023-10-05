@@ -1,0 +1,13 @@
+[
+     {
+        "question": "what is the name of neji's clan",
+        "options": ["akamitch", "ousomaki", "uchiha", "hyuga"],
+        "correct_answer": "hyuga"
+    }
+    ,
+    {
+        "question": "what is the year Liverpool created.",
+        "options": [1890, 1840, 1870, 1892],
+        "correct_answer": 1892
+    }
+]
