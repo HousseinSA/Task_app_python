@@ -13,7 +13,11 @@
 #        temperature = item[1]
 #        print(int(temperature))
 #
+#
+# import webbrowser
+# user_term = input('Enter a search term: ')
+# webbrowser.open(f'https://google.com/search?q={user_term}')
 
-import webbrowser
-user_term = input('Enter a search term: ')
-webbrowser.open(f'https://google.com/search?q={user_term}')
+import shutil
+zip =  shutil.make_archive('neji','zip', 'files')
+print(zip)

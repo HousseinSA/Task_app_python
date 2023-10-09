@@ -25,4 +25,5 @@ for question in questions:
         print('invalid index or data type.')
         continue
 print(questions)
+print('i love liverpool')
 print(f'{correct_answer_count}/{len(questions)}')

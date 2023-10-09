@@ -6,7 +6,6 @@ print(f"it's {date}")
 todos = get_todos()
 while True:
         user_action = input("type add, edit, complete , or show, exit, and clear\n")
-        print(f'{date}\n')
         if user_action.startswith('add'):
             try:
                 if user_action[4:] == "":
